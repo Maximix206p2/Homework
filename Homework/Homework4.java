@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Homework4 {
     public static void main(String[] args) {
+        //1 - Fibonacci numbers
         int a1 = 1, a2 = 1;
         while (a1 + a2 < 10_000_000) {
             int a3 = a1 + a2;
@@ -9,18 +10,17 @@ public class Homework4 {
             a1 = a2;
             a2 = a3;
         }
-        //2
+        //2 - prime number
         boolean check;
         for (int i = 2; i < 1000; i++) {
             check = true;
-            // проверить, делится ли число без остатка
+            // делится ли число без остатка
             for (int j = 2; j <= i / j; j++)
-                // если число делится без остатка, значит, оно не простое
                 if (i % j == 0) check = false;
             if (check)
                 System.out.println(i);
         }
-        //3
+        //5 - palindrome
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         String xL = sc.nextLine();
