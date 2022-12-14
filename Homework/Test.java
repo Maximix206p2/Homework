@@ -39,7 +39,7 @@ class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return "{n='" + name + '\'' + ", m=" + mark + '}';
+        return name + " " + mark;
     }
 
     @Override
