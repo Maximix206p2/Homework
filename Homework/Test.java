@@ -30,7 +30,7 @@ public class Test {
 }
 class Student implements Comparable<Student>{
     private String name;
-    private Integer mark;
+    private int mark;
 
     public Student(String name, int mark) {
         this.name = name;
