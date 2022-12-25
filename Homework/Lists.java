@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Lists {
     public static void main(String[] args) {
-        //ArrayList of LinkedList
+        //ArrayList to LinkedList
         //System.out.println(generateString(3,6));
         //Упаковка
         ArrayList<LinkedList<String>> bigBox = new ArrayList<>();
