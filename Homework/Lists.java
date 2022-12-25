@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Random;
 
-//Умение конструировать код и распознавать код
 public class Lists {
     public static void main(String[] args) {
         //ArrayList of LinkedList
