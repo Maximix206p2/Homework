@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class Homework10 {
     public static void main(String[] args) throws FileNotFoundException {
+        //task6
         XmlReader[] xmlReaders = new XmlReader[5];
         for (int i = 0; i < 5; i++)
             xmlReaders[i] = new XmlReader();
